@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Travel Agency</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destination">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tours">Tours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="jumbotron text-center" id="jumbotron text-center">
+    
+    <h1 class="display-4">Discover Your Dream Destinations</h1>
+    <p class="lead">Explore the world with our expertly crafted tours</p>
+    <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destination" id="destination">
+    <h2 class="text-center mb-4">Popular Destinations</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="THAILAND.jpg" class="card-img-top" alt="Destination 1">
+          <div class="card-body">
+            <h5 class="card-title">Destination 1</h5>
+            <p class="card-text">Description of Destination thailand.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="image for south of france .jpg" class="card-img-top" alt="Destination 2">
+          <div class="card-body">
+            <h5 class="card-title">Destination 2</h5>
+            <p class="card-text">Description of Destination South of France.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Tours Section -->
+  <section class="tours" id="tours">
+    <h2 class="text-center mb-4">Featured Tours</h2>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Tour Package 1
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Description of Tour Package 1.
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat similar accordion structure for other tour packages -->
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container" id="contact">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="destination">Destination of Interest</label>
+        <input type="text" class="form-control" id="destination" placeholder="Enter destination">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container text-center">
+      <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+      <!-- Add social media icons -->
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

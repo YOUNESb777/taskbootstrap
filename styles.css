@@ -1,0 +1,134 @@
+/* Custom styles for the travel agency landing page */
+
+/* Navbar */
+
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase font size for the brand */
+    
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem; /* Adjust font size for navigation links */
+  }
+  
+  /* Hero Section */
+  .jumbotron {
+    background-image: url('travaling.jpg'); /* Replace 'hero-background.jpg' with your image */
+    background-size: cover;
+    color: #fff;
+    padding: 150px 0; /* Adjust vertical padding */
+  }
+  
+  /* Destinations Section */
+  .card {
+    border: none; /* Remove border from cards */
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    width: auto/* Set height for destination images */
+    object-fit: cover;
+    
+  }
+  
+  /* Tours Section */
+  .card-header {
+    background-color: #f8f9fa; /* Set background color for accordion headers */
+  }
+  
+
+  
+  /* Contact Form */
+  .form-control {
+    margin-bottom: 20px; /* Add margin between form fields */
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px 0; /* Add padding to footer */
+  }
+  
+
+  body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #e60505; 
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #000;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            background-color: #ddd;
+            color: #000;
+        }
+
+        .content {
+            padding-top: 70px; /* Adjust this value based on the height of your navbar */
+        }
+
+
+        /* ////////////////////////////////////////////////////////////// */
+
+
+        .destination {
+          padding: 60px 0;
+          background-color: #f8f9fa;
+      }
+
+      .destination h2 {
+          font-size: 2.5rem;
+          margin-bottom: 30px;
+      }
+
+      .card {
+          border: none;
+          transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .card-img-top {
+          height: 200px;
+          object-fit: cover;
+      }
+
+      .card-title {
+          font-size: 1.25rem;
+          font-weight: bold;
+      }
+
+      .card-text {
+          font-size: 1rem;
+          color: #555;
+      }
+
+      .btn-primary {
+          background-color: #007bff;
+          border: none;
+          transition: background-color 0.3s;
+      }
+
+      .btn-primary:hover {
+          background-color: #0056b3;
+      } 
+
